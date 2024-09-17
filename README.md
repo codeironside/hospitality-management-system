@@ -20,7 +20,7 @@ Welcome to **GuestQuest**, my first (and *hopefully* successful) attempt at crea
 ## Installation ⚙️
 For those brave enough to give it a try:
 ```bash
-git clone [https://github.com/codeironside/hospitality-management-system.git](https://github.com/codeironside/hospitality-management-system.git)
+git clone https://github.com/codeironside/hospitality-management-system.git
 cd hospitality-management-system
 npm install
 npm start
