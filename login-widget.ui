@@ -19,6 +19,314 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>-50</x>
+     <y>0</y>
+     <width>881</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Raised</enum>
+   </property>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>861</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame {
+ /* Slight orange background */
+    border: 2px solid #402A12 ; /* Border color */
+    border-radius: 50px;       /* Rounded corners */
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>60</y>
+       <width>101</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+    border: 5x solid #403A12 ; /* Border color */
+    border-radius: 50px;       /* Rounded corners */
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::TextFormat::MarkdownText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>assets/room-service.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>30</y>
+       <width>341</width>
+       <height>271</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:none</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>assets/Catering service-pana.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>562</x>
+       <y>201</y>
+       <width>211</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+  border: none;
+  border-bottom: 2.5px solid ;  /* Deep brown color code */
+}
+QLineEdit {
+  padding-top: 5px; /* Adjust padding to accommodate placeholder text */
+}
+
+QLineEdit::placeholder {
+  color: #A52A2A; /* Adjust placeholder color (optional) */
+  opacity: 1; /* Ensure placeholder is fully visible */
+}
+
+QLineEdit::before {
+  content: attr(placeholder); /* Inherit content from placeholder */
+  position: absolute;
+  top: 1; /* Position on top of the input field */
+  left: 5px; /* Adjust horizontal positioning */
+  font-size: 0.8em; /* Adjust font size (optional) */
+  color: #C0C0C0; /* Match placeholder color (optional) */
+  transition: opacity 0.7s ease-in-out; /* Add smooth opacity transition */
+}
+
+/* Hide the &quot;before&quot; element when text is entered */
+QLineEdit:not([placeholderText=&quot;&quot;])::before {
+  opacity: 0;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>Staff ID</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>270</y>
+       <width>211</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+  border: none;
+  border-bottom: 2.5px solid #592007;  /* Deep brown color code */
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>30</number>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::EchoMode::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string>Password</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="login">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>330</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border: none;
+    background-color: transparent;
+}
+
+QPushButton:hover {
+    background-color: #EBDEDE;
+}
+QPushButton:pressed {
+    background-color: #d0d0d0;
+}
+
+QPushButton:flat {
+    border: none;
+	color: rgb(0, 0, 0);
+}
+</string>
+     </property>
+     <property name="text">
+      <string> Login</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../desktop-application-for-student-based-management-system/icons8-login-rounded-up-24.png</normaloff>../../desktop-application-for-student-based-management-system/icons8-login-rounded-up-24.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>380</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border: none;
+    background-color: transparent;
+}
+
+QPushButton:hover {
+    background-color: #EBDEDE;
+}
+QPushButton:pressed {
+    background-color: #d0d0d0;
+}
+
+QPushButton:flat {
+    border: none;
+	color: rgb(0, 0, 0);
+}
+</string>
+     </property>
+     <property name="text">
+      <string>  forgot Password</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../desktop-application-for-student-based-management-system/icons8-forgot-password-16.png</normaloff>../../desktop-application-for-student-based-management-system/icons8-forgot-password-16.png</iconset>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>310</y>
+       <width>381</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Sunken</enum>
+     </property>
+     <property name="text">
+      <string>please keep your information safe</string>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>430</y>
+       <width>381</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="mouseTracking">
+      <bool>true</bool>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 italic 9pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Sunken</enum>
+     </property>
+     <property name="text">
+      <string>copyright of codeironside©</string>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
  </widget>
  <resources/>
  <connections/>
