@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1210</width>
-    <height>601</height>
+    <height>605</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -81,7 +81,7 @@ QTabBar::tab:!selected {
 </string>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>1</number>
      </property>
      <widget class="QWidget" name="tab">
       <attribute name="icon">
@@ -842,6 +842,509 @@ color: #775d41;
         <bool>true</bool>
        </property>
       </widget>
+      <widget class="QCheckBox" name="checkBox">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>130</y>
+         <width>21</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_2">
+       <property name="geometry">
+        <rect>
+         <x>710</x>
+         <y>130</y>
+         <width>21</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_3">
+       <property name="geometry">
+        <rect>
+         <x>610</x>
+         <y>130</y>
+         <width>21</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_4">
+       <property name="geometry">
+        <rect>
+         <x>900</x>
+         <y>470</y>
+         <width>21</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QTabWidget" name="tabWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>40</y>
+         <width>711</width>
+         <height>491</height>
+        </rect>
+       </property>
+       <property name="tabShape">
+        <enum>QTabWidget::TabShape::Triangular</enum>
+       </property>
+       <property name="currentIndex">
+        <number>2</number>
+       </property>
+       <widget class="QWidget" name="tab_9">
+        <attribute name="title">
+         <string>Hotel</string>
+        </attribute>
+        <widget class="QTableWidget" name="tableWidget_3">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>20</y>
+           <width>551</width>
+           <height>411</height>
+          </rect>
+         </property>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Actions</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/action.png</normaloff>assets/roles/action.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Edit</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/edit.png</normaloff>assets/roles/edit.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>View</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/eye.png</normaloff>assets/roles/eye.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>New Column</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/add.png</normaloff>assets/roles/add.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Delete</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/bin.png</normaloff>assets/roles/bin.png</iconset>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>Menu</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>Beverages</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>Alcholic</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>POS</string>
+          </property>
+         </item>
+         <item row="4" column="0">
+          <property name="text">
+           <string>Rooms</string>
+          </property>
+         </item>
+         <item row="5" column="0">
+          <property name="text">
+           <string>Inventories</string>
+          </property>
+         </item>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_10">
+        <attribute name="title">
+         <string>Restaurant</string>
+        </attribute>
+        <widget class="QTableWidget" name="tableWidget_4">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>20</y>
+           <width>551</width>
+           <height>411</height>
+          </rect>
+         </property>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Actions</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/action.png</normaloff>assets/roles/action.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Edit</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/edit.png</normaloff>assets/roles/edit.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>View</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/eye.png</normaloff>assets/roles/eye.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>New Column</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/add.png</normaloff>assets/roles/add.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Delete</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/bin.png</normaloff>assets/roles/bin.png</iconset>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>Menu</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>Beverages</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>Alcholic</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>POS</string>
+          </property>
+         </item>
+         <item row="4" column="0">
+          <property name="text">
+           <string>Rooms</string>
+          </property>
+         </item>
+         <item row="5" column="0">
+          <property name="text">
+           <string>Inventories</string>
+          </property>
+         </item>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_11">
+        <attribute name="title">
+         <string>Bars</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="tab_12">
+        <attribute name="title">
+         <string>Managers</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="tab_13">
+        <attribute name="title">
+         <string>Admin</string>
+        </attribute>
+       </widget>
+      </widget>
      </widget>
      <widget class="QWidget" name="tab_3">
       <attribute name="icon">
@@ -1330,7 +1833,7 @@ QPushButton:pressed {
      <rect>
       <x>0</x>
       <y>80</y>
-      <width>211</width>
+      <width>221</width>
       <height>51</height>
      </rect>
     </property>
