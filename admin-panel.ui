@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1210</width>
-    <height>605</height>
+    <width>1216</width>
+    <height>703</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,7 +23,7 @@
      <x>210</x>
      <y>0</y>
      <width>971</width>
-     <height>581</height>
+     <height>661</height>
     </rect>
    </property>
    <property name="currentIndex">
@@ -49,7 +49,7 @@
        <x>10</x>
        <y>0</y>
        <width>961</width>
-       <height>581</height>
+       <height>661</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -828,8 +828,8 @@ color: #775d41;
         <rect>
          <x>60</x>
          <y>10</y>
-         <width>871</width>
-         <height>521</height>
+         <width>861</width>
+         <height>511</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -914,7 +914,7 @@ QTabBar::scroller {
         <enum>QTabWidget::TabShape::Triangular</enum>
        </property>
        <property name="currentIndex">
-        <number>4</number>
+        <number>0</number>
        </property>
        <widget class="QWidget" name="tab_9">
         <attribute name="icon">
@@ -27392,6 +27392,106 @@ QCheckBox:focus {
         </widget>
        </widget>
       </widget>
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>540</y>
+         <width>151</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/* QPushButton Style */
+QPushButton {
+    background-color: #402A12; /* Dark brown background */
+    color: white; /* White text color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for size */
+    font-size: 14pt; /* Font size for visibility */
+    font-weight: bold; /* Bold text */
+    border: 2px solid #8c5b3a; /* Border to match the theme */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+/* Hover State */
+QPushButton:hover {
+    background-color: #8c5b3a; /* Lighter brown on hover */
+    border-color: #402A12; /* Darker border on hover */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4); /* Enhance shadow on hover */
+}
+
+/* Pressed (Active) State */
+QPushButton:pressed {
+    background-color: #f7e2cc; /* Light beige background on click */
+    color: #402A12; /* Dark brown text */
+    border-color: #8c5b3a; /* Darker border on press */
+    box-shadow: none; /* Remove shadow on press */
+}
+
+/* Disabled State */
+QPushButton:disabled {
+    background-color: #d3c1b3; /* Grayish beige for disabled state */
+    color: #a09791; /* Muted text color */
+    border: 2px solid #a09791; /* Muted border */
+    box-shadow: none; /* No shadow in disabled state */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Submit</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>540</y>
+         <width>151</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/* QPushButton Style */
+QPushButton {
+    background-color: #402A12; /* Dark brown background */
+    color: white; /* White text color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for size */
+    font-size: 14pt; /* Font size for visibility */
+    font-weight: bold; /* Bold text */
+    border: 2px solid #8c5b3a; /* Border to match the theme */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+/* Hover State */
+QPushButton:hover {
+    background-color: #8c5b3a; /* Lighter brown on hover */
+    border-color: #402A12; /* Darker border on hover */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4); /* Enhance shadow on hover */
+}
+
+/* Pressed (Active) State */
+QPushButton:pressed {
+    background-color: #f7e2cc; /* Light beige background on click */
+    color: #402A12; /* Dark brown text */
+    border-color: #8c5b3a; /* Darker border on press */
+    box-shadow: none; /* Remove shadow on press */
+}
+
+/* Disabled State */
+QPushButton:disabled {
+    background-color: #d3c1b3; /* Grayish beige for disabled state */
+    color: #a09791; /* Muted text color */
+    border: 2px solid #a09791; /* Muted border */
+    box-shadow: none; /* No shadow in disabled state */
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Submit</string>
+       </property>
+      </widget>
      </widget>
      <widget class="QWidget" name="tab_3">
       <attribute name="icon">
@@ -27859,7 +27959,7 @@ QPushButton:pressed {
      <x>0</x>
      <y>0</y>
      <width>221</width>
-     <height>601</height>
+     <height>661</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -27993,7 +28093,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>520</y>
+      <y>580</y>
       <width>221</width>
       <height>81</height>
      </rect>
