@@ -823,314 +823,2121 @@ color: #775d41;
       <attribute name="title">
        <string>Role</string>
       </attribute>
-      <widget class="QLabel" name="label_7">
-       <property name="geometry">
-        <rect>
-         <x>40</x>
-         <y>40</y>
-         <width>51</width>
-         <height>61</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="pixmap">
-        <pixmap>assets/team-management_5114661 (1).png</pixmap>
-       </property>
-       <property name="scaledContents">
-        <bool>true</bool>
-       </property>
-      </widget>
-      <widget class="QCheckBox" name="checkBox">
-       <property name="geometry">
-        <rect>
-         <x>510</x>
-         <y>130</y>
-         <width>21</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QCheckBox" name="checkBox_2">
-       <property name="geometry">
-        <rect>
-         <x>710</x>
-         <y>130</y>
-         <width>21</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QCheckBox" name="checkBox_3">
-       <property name="geometry">
-        <rect>
-         <x>610</x>
-         <y>130</y>
-         <width>21</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-      <widget class="QCheckBox" name="checkBox_4">
-       <property name="geometry">
-        <rect>
-         <x>900</x>
-         <y>470</y>
-         <width>21</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
       <widget class="QTabWidget" name="tabWidget_2">
        <property name="geometry">
         <rect>
-         <x>160</x>
-         <y>40</y>
-         <width>711</width>
+         <x>90</x>
+         <y>60</y>
+         <width>841</width>
          <height>491</height>
         </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/* QTabWidget Base Style */
+QTabWidget::pane {
+
+    border: 1px solid #d8b89a; /* Slight border around content area */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px;
+}
+
+/* Tab Bar (tab buttons area) */
+QTabBar::tab {
+  
+    color: #402A12; /* Deep brown text color */
+    padding: 10px 20px; /* Padding inside the tab buttons */
+    border: 1px solid #d8b89a; /* Border around each tab */
+    border-radius: 10px 10px 0 0; /* Top corners rounded */
+    margin-right: 2px; /* Small gap between tabs */
+    min-width: 100px; /* Minimum width for each tab */
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; /* Clean font */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover Effect on Tabs */
+QTabBar::tab:hover {
+    background-color: #f7e2cc; /* Light orange on hover */
+    color: #402A12; /* Keep text color the same on hover */
+}
+
+/* Active Tab (selected) */
+QTabBar::tab:selected {
+    background-color: #402A12; /* Deep brown for the active tab */
+    color: #fff; /* White text for the active tab */
+    border: 1px solid #d8b89a; /* Keep border consistent */
+    padding-bottom: 2px; /* Subtle padding change to indicate active state */
+}
+
+/* Disabled Tab */
+QTabBar::tab:disabled {
+    background-color: #e0e0e0; /* Gray background for disabled tabs */
+    color: #9e9e9e; /* Gray text for disabled tabs */
+    border: 1px solid #d8b89a;
+}
+
+/* Styling the Tab Bar (the line the tabs sit on) */
+QTabBar {
+    background-color: #ebe6e0; /* Same as tab background */
+    border-bottom: 1px solid #d8b89a; /* Border under the tabs */
+}
+
+/* Scroll buttons for tab navigation */
+QTabBar::scroller {
+    width: 15px;
+    height: 15px;
+    background-color: #ebe6e0;
+}
+
+/* Close button on tabs (if applicable) */
+QTabBar::close-button {
+    image: url(':/icons/close.png'); /* Custom close icon if needed */
+    margin: 3px; /* Small margin around close button */
+}
+QTabBar::close-button:hover {
+    image: url(':/icons/close-hover.png'); /* Hover effect for close button */
+}
+
+/* Tab Widget Frame (surrounding area) */
+QTabWidget::tab-bar {
+    alignment: center; /* Align tabs in the center */
+    background-color: #ebe6e0;
+}
+
+/* Scrollable Tab Widget */
+QTabBar::scroller {
+    border: none;
+}
+</string>
        </property>
        <property name="tabShape">
         <enum>QTabWidget::TabShape::Triangular</enum>
        </property>
        <property name="currentIndex">
-        <number>2</number>
+        <number>0</number>
        </property>
        <widget class="QWidget" name="tab_9">
+        <attribute name="icon">
+         <iconset>
+          <normaloff>assets/roles/hotel_2054620.png</normaloff>assets/roles/hotel_2054620.png</iconset>
+        </attribute>
         <attribute name="title">
          <string>Hotel</string>
         </attribute>
-        <widget class="QTableWidget" name="tableWidget_3">
+        <widget class="QLabel" name="label_7">
          <property name="geometry">
           <rect>
-           <x>90</x>
-           <y>20</y>
-           <width>551</width>
-           <height>411</height>
+           <x>10</x>
+           <y>80</y>
+           <width>241</width>
+           <height>231</height>
           </rect>
          </property>
-         <row>
-          <property name="text">
-           <string/>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>assets/roles/36242091_8316271.jpg</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QScrollArea" name="scrollArea">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>30</y>
+           <width>531</width>
+           <height>391</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>531</width>
+           <height>391</height>
+          </size>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOn</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarPolicy::ScrollBarAsNeeded</enum>
+         </property>
+         <property name="sizeAdjustPolicy">
+          <enum>QAbstractScrollArea::SizeAdjustPolicy::AdjustToContentsOnFirstShow</enum>
+         </property>
+         <property name="widgetResizable">
+          <bool>false</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents">
+          <property name="geometry">
+           <rect>
+            <x>-17</x>
+            <y>-17</y>
+            <width>529</width>
+            <height>389</height>
+           </rect>
           </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <row>
-          <property name="text">
-           <string/>
-          </property>
-         </row>
-         <column>
-          <property name="text">
-           <string>Actions</string>
-          </property>
-          <property name="icon">
-           <iconset>
-            <normaloff>assets/roles/action.png</normaloff>assets/roles/action.png</iconset>
-          </property>
-         </column>
-         <column>
-          <property name="text">
-           <string>Edit</string>
-          </property>
-          <property name="icon">
-           <iconset>
-            <normaloff>assets/roles/edit.png</normaloff>assets/roles/edit.png</iconset>
-          </property>
-         </column>
-         <column>
-          <property name="text">
-           <string>View</string>
-          </property>
-          <property name="icon">
-           <iconset>
-            <normaloff>assets/roles/eye.png</normaloff>assets/roles/eye.png</iconset>
-          </property>
-         </column>
-         <column>
-          <property name="text">
-           <string>New Column</string>
-          </property>
-          <property name="icon">
-           <iconset>
-            <normaloff>assets/roles/add.png</normaloff>assets/roles/add.png</iconset>
-          </property>
-         </column>
-         <column>
-          <property name="text">
-           <string>Delete</string>
-          </property>
-          <property name="icon">
-           <iconset>
-            <normaloff>assets/roles/bin.png</normaloff>assets/roles/bin.png</iconset>
-          </property>
-         </column>
-         <item row="0" column="0">
-          <property name="text">
-           <string>Menu</string>
-          </property>
-         </item>
-         <item row="1" column="0">
-          <property name="text">
-           <string>Beverages</string>
-          </property>
-         </item>
-         <item row="2" column="0">
-          <property name="text">
-           <string>Alcholic</string>
-          </property>
-         </item>
-         <item row="3" column="0">
-          <property name="text">
-           <string>POS</string>
-          </property>
-         </item>
-         <item row="4" column="0">
-          <property name="text">
-           <string>Rooms</string>
-          </property>
-         </item>
-         <item row="5" column="0">
-          <property name="text">
-           <string>Inventories</string>
-          </property>
-         </item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QGroupBox" name="groupBox_13">
+             <property name="styleSheet">
+              <string notr="true">/* QGroupBox: Minimalist look with soft borders */
+QGroupBox {
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    color: #402A12; /* Soft brown color for title */
+}
+
+/* QLabel: Modern text */
+QLabel {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #402A12; /* Same soft brown */
+}
+
+/* QCheckBox: Simple checkbox design */
+QCheckBox {
+    spacing: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #402A12;
+}
+
+/* Hover effect on QCheckBox for better interaction */
+QCheckBox:hover {
+    background-color: #f7e2cc; /* Light beige background */
+    border-radius: 5px;
+}
+</string>
+             </property>
+             <property name="title">
+              <string/>
+             </property>
+             <widget class="QGroupBox" name="groupBox_3">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>243</width>
+                <height>163</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string/>
+              </property>
+              <widget class="QGroupBox" name="groupBox_2">
+               <property name="geometry">
+                <rect>
+                 <x>150</x>
+                 <y>0</y>
+                 <width>81</width>
+                 <height>141</height>
+                </rect>
+               </property>
+               <property name="title">
+                <string>yes/No</string>
+               </property>
+              </widget>
+              <widget class="QGroupBox" name="groupBox">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>0</y>
+                 <width>131</width>
+                 <height>141</height>
+                </rect>
+               </property>
+               <property name="title">
+                <string>American</string>
+               </property>
+               <widget class="QLabel" name="label_11">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>30</y>
+                  <width>51</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Create</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_12">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>30</y>
+                  <width>31</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>assets/roles/add.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_16">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>60</y>
+                  <width>51</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>View</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_17">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>120</y>
+                  <width>51</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Delete</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_18">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>90</y>
+                  <width>51</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Edit</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_19">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>60</y>
+                  <width>31</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>assets/roles/eye.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_20">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>90</y>
+                  <width>31</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>assets/roles/edit.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_21">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>120</y>
+                  <width>31</width>
+                  <height>16</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>assets/roles/bin.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </widget>
+             </widget>
+             <widget class="QGroupBox" name="groupBox_4">
+              <property name="geometry">
+               <rect>
+                <x>259</x>
+                <y>10</y>
+                <width>242</width>
+                <height>163</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string/>
+              </property>
+              <widget class="QGroupBox" name="groupBox_11">
+               <property name="geometry">
+                <rect>
+                 <x>150</x>
+                 <y>0</y>
+                 <width>61</width>
+                 <height>141</height>
+                </rect>
+               </property>
+               <property name="title">
+                <string>yes/No</string>
+               </property>
+              </widget>
+              <widget class="QGroupBox" name="groupBox_12">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>0</y>
+                 <width>131</width>
+                 <height>141</height>
+                </rect>
+               </property>
+               <property name="title">
+                <string>Mexican</string>
+               </property>
+               <widget class="QLabel" name="label_26">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>30</y>
+                  <width>51</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Create</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_27">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>30</y>
+                  <width>31</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>assets/roles/add.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_28">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>60</y>
+                  <width>51</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>View</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_29">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>120</y>
+                  <width>51</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Delete</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_30">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>90</y>
+                  <width>51</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Edit</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_31">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>60</y>
+                  <width>31</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>assets/roles/eye.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_32">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>90</y>
+                  <width>31</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>assets/roles/edit.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_33">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>120</y>
+                  <width>31</width>
+                  <height>16</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>assets/roles/bin.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </widget>
+             </widget>
+             <widget class="QGroupBox" name="groupBox_21">
+              <property name="geometry">
+               <rect>
+                <x>460</x>
+                <y>170</y>
+                <width>511</width>
+                <height>183</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">/* QGroupBox: Minimalist look with soft borders */
+QGroupBox {
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    color: #402A12; /* Soft brown color for title */
+}
+
+/* QLabel: Modern text */
+QLabel {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #402A12; /* Same soft brown */
+}
+
+/* QCheckBox: Simple checkbox design */
+QCheckBox {
+    spacing: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #402A12;
+}
+
+/* Hover effect on QCheckBox for better interaction */
+QCheckBox:hover {
+    background-color: #f7e2cc; /* Light beige background */
+    border-radius: 5px;
+}
+</string>
+              </property>
+              <property name="title">
+               <string/>
+              </property>
+              <widget class="QGroupBox" name="groupBox_28">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>10</y>
+                 <width>243</width>
+                 <height>163</height>
+                </rect>
+               </property>
+               <property name="title">
+                <string/>
+               </property>
+               <widget class="QGroupBox" name="groupBox_29">
+                <property name="geometry">
+                 <rect>
+                  <x>150</x>
+                  <y>0</y>
+                  <width>81</width>
+                  <height>141</height>
+                 </rect>
+                </property>
+                <property name="title">
+                 <string>yes/No</string>
+                </property>
+               </widget>
+               <widget class="QGroupBox" name="groupBox_30">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>0</y>
+                  <width>131</width>
+                  <height>141</height>
+                 </rect>
+                </property>
+                <property name="title">
+                 <string>American</string>
+                </property>
+                <widget class="QLabel" name="label_74">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>30</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>Create</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_75">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>30</y>
+                   <width>31</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>assets/roles/add.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_76">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>60</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>View</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_77">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>120</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>Delete</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_78">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>90</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>Edit</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_79">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>60</y>
+                   <width>31</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>assets/roles/eye.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_80">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>90</y>
+                   <width>31</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>assets/roles/edit.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_81">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>120</y>
+                   <width>31</width>
+                   <height>16</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>assets/roles/bin.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </widget>
+              </widget>
+              <widget class="QGroupBox" name="groupBox_31">
+               <property name="geometry">
+                <rect>
+                 <x>259</x>
+                 <y>10</y>
+                 <width>242</width>
+                 <height>163</height>
+                </rect>
+               </property>
+               <property name="title">
+                <string/>
+               </property>
+               <widget class="QGroupBox" name="groupBox_32">
+                <property name="geometry">
+                 <rect>
+                  <x>150</x>
+                  <y>0</y>
+                  <width>61</width>
+                  <height>141</height>
+                 </rect>
+                </property>
+                <property name="title">
+                 <string>yes/No</string>
+                </property>
+               </widget>
+               <widget class="QGroupBox" name="groupBox_33">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>0</y>
+                  <width>131</width>
+                  <height>141</height>
+                 </rect>
+                </property>
+                <property name="title">
+                 <string>Mexican</string>
+                </property>
+                <widget class="QLabel" name="label_130">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>30</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>Create</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_131">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>30</y>
+                   <width>31</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>assets/roles/add.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_132">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>60</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>View</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_133">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>120</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>Delete</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_134">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>90</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>Edit</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_135">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>60</y>
+                   <width>31</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>assets/roles/eye.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_136">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>90</y>
+                   <width>31</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>assets/roles/edit.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_137">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>120</y>
+                   <width>31</width>
+                   <height>16</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>assets/roles/bin.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </widget>
+              </widget>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_34">
+             <property name="styleSheet">
+              <string notr="true">/* QGroupBox: Minimalist look with soft borders */
+QGroupBox {
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    color: #402A12; /* Soft brown color for title */
+}
+
+/* QLabel: Modern text */
+QLabel {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #402A12; /* Same soft brown */
+}
+
+/* QCheckBox: Simple checkbox design */
+QCheckBox {
+    spacing: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #402A12;
+}
+
+/* Hover effect on QCheckBox for better interaction */
+QCheckBox:hover {
+    background-color: #f7e2cc; /* Light beige background */
+    border-radius: 5px;
+}
+</string>
+             </property>
+             <property name="title">
+              <string/>
+             </property>
+             <widget class="QGroupBox" name="groupBox_35">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>243</width>
+                <height>163</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string/>
+              </property>
+              <widget class="QGroupBox" name="groupBox_36">
+               <property name="geometry">
+                <rect>
+                 <x>150</x>
+                 <y>0</y>
+                 <width>81</width>
+                 <height>141</height>
+                </rect>
+               </property>
+               <property name="title">
+                <string>yes/No</string>
+               </property>
+              </widget>
+              <widget class="QGroupBox" name="groupBox_37">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>0</y>
+                 <width>131</width>
+                 <height>141</height>
+                </rect>
+               </property>
+               <property name="title">
+                <string>American</string>
+               </property>
+               <widget class="QLabel" name="label_138">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>30</y>
+                  <width>51</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Create</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_139">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>30</y>
+                  <width>31</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>assets/roles/add.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_140">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>60</y>
+                  <width>51</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>View</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_141">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>120</y>
+                  <width>51</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Delete</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_142">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>90</y>
+                  <width>51</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Edit</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_143">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>60</y>
+                  <width>31</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>assets/roles/eye.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_144">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>90</y>
+                  <width>31</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>assets/roles/edit.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_145">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>120</y>
+                  <width>31</width>
+                  <height>16</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>assets/roles/bin.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </widget>
+             </widget>
+             <widget class="QGroupBox" name="groupBox_38">
+              <property name="geometry">
+               <rect>
+                <x>259</x>
+                <y>10</y>
+                <width>242</width>
+                <height>163</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string/>
+              </property>
+              <widget class="QGroupBox" name="groupBox_39">
+               <property name="geometry">
+                <rect>
+                 <x>150</x>
+                 <y>0</y>
+                 <width>61</width>
+                 <height>141</height>
+                </rect>
+               </property>
+               <property name="title">
+                <string>yes/No</string>
+               </property>
+              </widget>
+              <widget class="QGroupBox" name="groupBox_40">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>0</y>
+                 <width>131</width>
+                 <height>141</height>
+                </rect>
+               </property>
+               <property name="title">
+                <string>Mexican</string>
+               </property>
+               <widget class="QLabel" name="label_146">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>30</y>
+                  <width>51</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Create</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_147">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>30</y>
+                  <width>31</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>assets/roles/add.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_148">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>60</y>
+                  <width>51</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>View</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_149">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>120</y>
+                  <width>51</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Delete</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_150">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>90</y>
+                  <width>51</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Edit</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_151">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>60</y>
+                  <width>31</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>assets/roles/eye.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_152">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>90</y>
+                  <width>31</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>assets/roles/edit.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_153">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>120</y>
+                  <width>31</width>
+                  <height>16</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>assets/roles/bin.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </widget>
+             </widget>
+             <widget class="QGroupBox" name="groupBox_41">
+              <property name="geometry">
+               <rect>
+                <x>460</x>
+                <y>170</y>
+                <width>511</width>
+                <height>183</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">/* QGroupBox: Minimalist look with soft borders */
+QGroupBox {
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    color: #402A12; /* Soft brown color for title */
+}
+
+/* QLabel: Modern text */
+QLabel {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #402A12; /* Same soft brown */
+}
+
+/* QCheckBox: Simple checkbox design */
+QCheckBox {
+    spacing: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #402A12;
+}
+
+/* Hover effect on QCheckBox for better interaction */
+QCheckBox:hover {
+    background-color: #f7e2cc; /* Light beige background */
+    border-radius: 5px;
+}
+</string>
+              </property>
+              <property name="title">
+               <string/>
+              </property>
+              <widget class="QGroupBox" name="groupBox_42">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>10</y>
+                 <width>243</width>
+                 <height>163</height>
+                </rect>
+               </property>
+               <property name="title">
+                <string/>
+               </property>
+               <widget class="QGroupBox" name="groupBox_43">
+                <property name="geometry">
+                 <rect>
+                  <x>150</x>
+                  <y>0</y>
+                  <width>81</width>
+                  <height>141</height>
+                 </rect>
+                </property>
+                <property name="title">
+                 <string>yes/No</string>
+                </property>
+               </widget>
+               <widget class="QGroupBox" name="groupBox_44">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>0</y>
+                  <width>131</width>
+                  <height>141</height>
+                 </rect>
+                </property>
+                <property name="title">
+                 <string>American</string>
+                </property>
+                <widget class="QLabel" name="label_154">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>30</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>Create</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_155">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>30</y>
+                   <width>31</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>assets/roles/add.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_156">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>60</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>View</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_157">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>120</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>Delete</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_158">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>90</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>Edit</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_159">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>60</y>
+                   <width>31</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>assets/roles/eye.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_160">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>90</y>
+                   <width>31</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>assets/roles/edit.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_161">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>120</y>
+                   <width>31</width>
+                   <height>16</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>assets/roles/bin.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </widget>
+              </widget>
+              <widget class="QGroupBox" name="groupBox_45">
+               <property name="geometry">
+                <rect>
+                 <x>259</x>
+                 <y>10</y>
+                 <width>242</width>
+                 <height>163</height>
+                </rect>
+               </property>
+               <property name="title">
+                <string/>
+               </property>
+               <widget class="QGroupBox" name="groupBox_46">
+                <property name="geometry">
+                 <rect>
+                  <x>150</x>
+                  <y>0</y>
+                  <width>61</width>
+                  <height>141</height>
+                 </rect>
+                </property>
+                <property name="title">
+                 <string>yes/No</string>
+                </property>
+               </widget>
+               <widget class="QGroupBox" name="groupBox_47">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>0</y>
+                  <width>131</width>
+                  <height>141</height>
+                 </rect>
+                </property>
+                <property name="title">
+                 <string>Mexican</string>
+                </property>
+                <widget class="QLabel" name="label_162">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>30</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>Create</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_163">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>30</y>
+                   <width>31</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>assets/roles/add.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_164">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>60</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>View</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_165">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>120</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>Delete</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_166">
+                 <property name="geometry">
+                  <rect>
+                   <x>60</x>
+                   <y>90</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>Edit</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_167">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>60</y>
+                   <width>31</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>assets/roles/eye.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_168">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>90</y>
+                   <width>31</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>assets/roles/edit.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_169">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>120</y>
+                   <width>31</width>
+                   <height>16</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>assets/roles/bin.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </widget>
+              </widget>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_14">
+             <property name="title">
+              <string/>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <item>
+               <widget class="QGroupBox" name="groupBox_15">
+                <property name="title">
+                 <string/>
+                </property>
+                <widget class="QGroupBox" name="groupBox_16">
+                 <property name="geometry">
+                  <rect>
+                   <x>150</x>
+                   <y>0</y>
+                   <width>81</width>
+                   <height>141</height>
+                  </rect>
+                 </property>
+                 <property name="title">
+                  <string>yes/No</string>
+                 </property>
+                </widget>
+                <widget class="QGroupBox" name="groupBox_17">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>0</y>
+                   <width>131</width>
+                   <height>141</height>
+                  </rect>
+                 </property>
+                 <property name="title">
+                  <string>American</string>
+                 </property>
+                 <widget class="QLabel" name="label_34">
+                  <property name="geometry">
+                   <rect>
+                    <x>60</x>
+                    <y>30</y>
+                    <width>51</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>Create</string>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_35">
+                  <property name="geometry">
+                   <rect>
+                    <x>20</x>
+                    <y>30</y>
+                    <width>31</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>assets/roles/add.png</pixmap>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_36">
+                  <property name="geometry">
+                   <rect>
+                    <x>60</x>
+                    <y>60</y>
+                    <width>51</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>View</string>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_37">
+                  <property name="geometry">
+                   <rect>
+                    <x>60</x>
+                    <y>120</y>
+                    <width>51</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>Delete</string>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_38">
+                  <property name="geometry">
+                   <rect>
+                    <x>60</x>
+                    <y>90</y>
+                    <width>51</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>Edit</string>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_39">
+                  <property name="geometry">
+                   <rect>
+                    <x>20</x>
+                    <y>60</y>
+                    <width>31</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>assets/roles/eye.png</pixmap>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_40">
+                  <property name="geometry">
+                   <rect>
+                    <x>20</x>
+                    <y>90</y>
+                    <width>31</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>assets/roles/edit.png</pixmap>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_41">
+                  <property name="geometry">
+                   <rect>
+                    <x>20</x>
+                    <y>120</y>
+                    <width>31</width>
+                    <height>16</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>assets/roles/bin.png</pixmap>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </widget>
+               </widget>
+              </item>
+              <item>
+               <widget class="QGroupBox" name="groupBox_18">
+                <property name="title">
+                 <string/>
+                </property>
+                <widget class="QGroupBox" name="groupBox_19">
+                 <property name="geometry">
+                  <rect>
+                   <x>150</x>
+                   <y>0</y>
+                   <width>61</width>
+                   <height>141</height>
+                  </rect>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>61</width>
+                   <height>141</height>
+                  </size>
+                 </property>
+                 <property name="title">
+                  <string>yes/No</string>
+                 </property>
+                </widget>
+                <widget class="QGroupBox" name="groupBox_20">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>0</y>
+                   <width>131</width>
+                   <height>141</height>
+                  </rect>
+                 </property>
+                 <property name="title">
+                  <string>Mexican</string>
+                 </property>
+                 <widget class="QLabel" name="label_42">
+                  <property name="geometry">
+                   <rect>
+                    <x>60</x>
+                    <y>30</y>
+                    <width>51</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>Create</string>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_43">
+                  <property name="geometry">
+                   <rect>
+                    <x>20</x>
+                    <y>30</y>
+                    <width>31</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>assets/roles/add.png</pixmap>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_44">
+                  <property name="geometry">
+                   <rect>
+                    <x>60</x>
+                    <y>60</y>
+                    <width>51</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>View</string>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_45">
+                  <property name="geometry">
+                   <rect>
+                    <x>60</x>
+                    <y>120</y>
+                    <width>51</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>Delete</string>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_46">
+                  <property name="geometry">
+                   <rect>
+                    <x>60</x>
+                    <y>90</y>
+                    <width>51</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>Edit</string>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_47">
+                  <property name="geometry">
+                   <rect>
+                    <x>20</x>
+                    <y>60</y>
+                    <width>31</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>assets/roles/eye.png</pixmap>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_48">
+                  <property name="geometry">
+                   <rect>
+                    <x>20</x>
+                    <y>90</y>
+                    <width>31</width>
+                    <height>21</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>assets/roles/edit.png</pixmap>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_49">
+                  <property name="geometry">
+                   <rect>
+                    <x>20</x>
+                    <y>120</y>
+                    <width>31</width>
+                    <height>16</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>assets/roles/bin.png</pixmap>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
         </widget>
        </widget>
        <widget class="QWidget" name="tab_10">
+        <attribute name="icon">
+         <iconset>
+          <normaloff>assets/roles/restaurant.png</normaloff>assets/roles/restaurant.png</iconset>
+        </attribute>
         <attribute name="title">
          <string>Restaurant</string>
         </attribute>
         <widget class="QTableWidget" name="tableWidget_4">
          <property name="geometry">
           <rect>
-           <x>90</x>
-           <y>20</y>
+           <x>260</x>
+           <y>10</y>
            <width>551</width>
            <height>411</height>
           </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">/* QTableWidget/QTableView Base Style */
+QTableWidget, QTableView {
+    border: 1px solid #9A7C65; /* Lighter border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f5e7d9; /* Light beige background */
+    gridline-color: transparent; /* No gridlines for columns */
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* Header Style (Flat, No Raised Effect) */
+QHeaderView::section {
+    background-color: #D6B89A; /* Lighter brown variation for the header */
+    color: #604731; /* Soft brown text */
+    padding: 8px;
+    border: none; /* No borders for header */
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effect on Header */
+QHeaderView::section:hover {
+    background-color: #B08A6A; /* Slightly darker on hover */
+    color: #402A12; /* Darker text on hover */
+}
+
+/* Alternating Row Colors with Lighter Shades */
+QTableWidget::item, QTableView::item {
+    background-color: #fff; /* Default row background */
+    border: none; /* No column borders */
+    border-bottom: 1px solid #D6B89A; /* Lighter bottom border */
+}
+
+QTableWidget::item:nth-child(even), QTableView::item:nth-child(even) {
+    background-color: #f7e2cc; /* Light beige for alternate rows */
+    border-bottom: 1px solid #9A7C65; /* Slightly darker bottom border for even rows */
+}
+
+QTableWidget::item:hover, QTableView::item:hover {
+    background-color: #E9D4C2; /* Light brown background on row hover */
+    color: #402A12; /* Soft dark brown text on hover */
+}
+
+/* First Column (Serial Number or Fixed Column) */
+QTableWidget::item:first-child, QTableView::item:first-child {
+    background-color: #f2dec6; /* Slightly different background for first column */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Slim Borders Around Rows (Alternate Colors) */
+QTableWidget::item, QTableView::item {
+    border-bottom: 1px solid #D6B89A; /* Lighter bottom border for odd rows */
+}
+
+QTableWidget::item:nth-child(even), QTableView::item:nth-child(even) {
+    border-bottom: 1px solid #9A7C65; /* Slightly darker border for even rows */
+}
+
+/* Scrollbar Style */
+QScrollBar:vertical {
+    border: none;
+    background-color: #f7e2cc; /* Same as table background */
+    width: 12px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #9A7C65; /* Lighter brown for scrollbar handle */
+    min-height: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #D6B89A; /* Lighter hover effect */
+}
+
+QScrollBar::sub-line, QScrollBar::add-line {
+    border: none;
+    background: none;
+}
+</string>
          </property>
          <row>
           <property name="text">
@@ -1263,6 +3070,22 @@ color: #775d41;
          </column>
          <column>
           <property name="text">
+           <string>Create</string>
+          </property>
+          <property name="background">
+           <color>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/add.png</normaloff>assets/roles/add.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
            <string>Edit</string>
           </property>
           <property name="icon">
@@ -1281,11 +3104,405 @@ color: #775d41;
          </column>
          <column>
           <property name="text">
-           <string>New Column</string>
+           <string>Delete</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/bin.png</normaloff>assets/roles/bin.png</iconset>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>American</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>Italian</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>Mexican</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>Chinese</string>
+          </property>
+         </item>
+         <item row="4" column="0">
+          <property name="text">
+           <string>Indian</string>
+          </property>
+         </item>
+         <item row="5" column="0">
+          <property name="text">
+           <string>Japanese</string>
+          </property>
+         </item>
+         <item row="6" column="0">
+          <property name="text">
+           <string>Thai</string>
+          </property>
+         </item>
+         <item row="7" column="0">
+          <property name="text">
+           <string>Meditarranean</string>
+          </property>
+         </item>
+         <item row="8" column="0">
+          <property name="text">
+           <string>Fusion</string>
+          </property>
+         </item>
+         <item row="9" column="0">
+          <property name="text">
+           <string>Vegan</string>
+          </property>
+         </item>
+         <item row="10" column="0">
+          <property name="text">
+           <string>Vegitarian</string>
+          </property>
+         </item>
+         <item row="11" column="0">
+          <property name="text">
+           <string>Gluten-Free</string>
+          </property>
+         </item>
+         <item row="12" column="0">
+          <property name="text">
+           <string>Diary-Free</string>
+          </property>
+         </item>
+         <item row="13" column="0">
+          <property name="text">
+           <string>Nut-Free</string>
+          </property>
+         </item>
+         <item row="14" column="0">
+          <property name="text">
+           <string>Romantic</string>
+          </property>
+         </item>
+         <item row="15" column="0">
+          <property name="text">
+           <string>Business</string>
+          </property>
+         </item>
+         <item row="16" column="0">
+          <property name="text">
+           <string>Family</string>
+          </property>
+         </item>
+         <item row="17" column="0">
+          <property name="text">
+           <string>Group</string>
+          </property>
+         </item>
+         <item row="18" column="0">
+          <property name="text">
+           <string>Seasonal</string>
+          </property>
+         </item>
+         <item row="19" column="0">
+          <property name="text">
+           <string>Daily Specials</string>
+          </property>
+         </item>
+         <item row="20" column="0">
+          <property name="text">
+           <string>Happy Hour</string>
+          </property>
+         </item>
+         <item row="21" column="0">
+          <property name="text">
+           <string>Kids' Menu</string>
+          </property>
+         </item>
+         <item row="22" column="0">
+          <property name="text">
+           <string>To-Go</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="label_22">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>65</y>
+           <width>201</width>
+           <height>221</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>assets/roles/Coffee shop-amico.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_11">
+        <attribute name="icon">
+         <iconset>
+          <normaloff>assets/roles/beer.png</normaloff>assets/roles/beer.png</iconset>
+        </attribute>
+        <attribute name="title">
+         <string>Bars</string>
+        </attribute>
+        <widget class="QTableWidget" name="tableWidget_5">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>10</y>
+           <width>521</width>
+           <height>411</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">/* QTableWidget/QTableView Base Style */
+QTableWidget, QTableView {
+    border: 1px solid #9A7C65; /* Lighter border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f5e7d9; /* Light beige background */
+    gridline-color: transparent; /* No gridlines for columns */
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* Header Style (Flat, No Raised Effect) */
+QHeaderView::section {
+    background-color: #D6B89A; /* Lighter brown variation for the header */
+    color: #604731; /* Soft brown text */
+    padding: 8px;
+    border: none; /* No borders for header */
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effect on Header */
+QHeaderView::section:hover {
+    background-color: #B08A6A; /* Slightly darker on hover */
+    color: #402A12; /* Darker text on hover */
+}
+
+/* Alternating Row Colors with Lighter Shades */
+QTableWidget::item, QTableView::item {
+    background-color: #fff; /* Default row background */
+    border: none; /* No column borders */
+    border-bottom: 1px solid #D6B89A; /* Lighter bottom border */
+}
+
+QTableWidget::item:nth-child(even), QTableView::item:nth-child(even) {
+    background-color: #f7e2cc; /* Light beige for alternate rows */
+    border-bottom: 1px solid #9A7C65; /* Slightly darker bottom border for even rows */
+}
+
+QTableWidget::item:hover, QTableView::item:hover {
+    background-color: #E9D4C2; /* Light brown background on row hover */
+    color: #402A12; /* Soft dark brown text on hover */
+}
+
+/* First Column (Serial Number or Fixed Column) */
+QTableWidget::item:first-child, QTableView::item:first-child {
+    background-color: #f2dec6; /* Slightly different background for first column */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Slim Borders Around Rows (Alternate Colors) */
+QTableWidget::item, QTableView::item {
+    border-bottom: 1px solid #D6B89A; /* Lighter bottom border for odd rows */
+}
+
+QTableWidget::item:nth-child(even), QTableView::item:nth-child(even) {
+    border-bottom: 1px solid #9A7C65; /* Slightly darker border for even rows */
+}
+
+/* Scrollbar Style */
+QScrollBar:vertical {
+    border: none;
+    background-color: #f7e2cc; /* Same as table background */
+    width: 12px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #9A7C65; /* Lighter brown for scrollbar handle */
+    min-height: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #D6B89A; /* Lighter hover effect */
+}
+
+QScrollBar::sub-line, QScrollBar::add-line {
+    border: none;
+    background: none;
+}
+</string>
+         </property>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Actions</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/action.png</normaloff>assets/roles/action.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Create</string>
           </property>
           <property name="icon">
            <iconset>
             <normaloff>assets/roles/add.png</normaloff>assets/roles/add.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Edit</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/edit.png</normaloff>assets/roles/edit.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>View</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/eye.png</normaloff>assets/roles/eye.png</iconset>
           </property>
          </column>
          <column>
@@ -1299,22 +3516,380 @@ color: #775d41;
          </column>
          <item row="0" column="0">
           <property name="text">
-           <string>Menu</string>
+           <string>Beer</string>
           </property>
          </item>
          <item row="1" column="0">
           <property name="text">
-           <string>Beverages</string>
+           <string>Wine</string>
           </property>
          </item>
          <item row="2" column="0">
           <property name="text">
-           <string>Alcholic</string>
+           <string>Spirits</string>
           </property>
          </item>
          <item row="3" column="0">
           <property name="text">
-           <string>POS</string>
+           <string>Cocktails</string>
+          </property>
+         </item>
+         <item row="4" column="0">
+          <property name="text">
+           <string>Non-Alcoholic</string>
+          </property>
+         </item>
+         <item row="5" column="0">
+          <property name="text">
+           <string>Mocktails</string>
+          </property>
+         </item>
+         <item row="6" column="0">
+          <property name="text">
+           <string>Bar-Snacks</string>
+          </property>
+         </item>
+         <item row="7" column="0">
+          <property name="text">
+           <string>Appetizers</string>
+          </property>
+         </item>
+         <item row="8" column="0">
+          <property name="text">
+           <string>Late-Night</string>
+          </property>
+         </item>
+         <item row="9" column="0">
+          <property name="text">
+           <string>Happy-Hours</string>
+          </property>
+         </item>
+         <item row="10" column="0">
+          <property name="text">
+           <string>Game-Day</string>
+          </property>
+         </item>
+         <item row="11" column="0">
+          <property name="text">
+           <string>Flights</string>
+          </property>
+         </item>
+         <item row="12" column="0">
+          <property name="text">
+           <string>Signature-Cocktail</string>
+          </property>
+         </item>
+         <item row="13" column="0">
+          <property name="text">
+           <string>Seasonal</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="label_23">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>60</y>
+           <width>231</width>
+           <height>261</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>assets/roles/Cocktail bartender-amico.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_12">
+        <attribute name="icon">
+         <iconset>
+          <normaloff>assets/roles/management.png</normaloff>assets/roles/management.png</iconset>
+        </attribute>
+        <attribute name="title">
+         <string>Managers</string>
+        </attribute>
+        <widget class="QTableWidget" name="tableWidget_6">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>0</y>
+           <width>531</width>
+           <height>411</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">/* QTableWidget/QTableView Base Style */
+QTableWidget, QTableView {
+    border: 1px solid #9A7C65; /* Lighter border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f5e7d9; /* Light beige background */
+    gridline-color: transparent; /* No gridlines for columns */
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* Header Style (Flat, No Raised Effect) */
+QHeaderView::section {
+    background-color: #D6B89A; /* Lighter brown variation for the header */
+    color: #604731; /* Soft brown text */
+    padding: 8px;
+    border: none; /* No borders for header */
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effect on Header */
+QHeaderView::section:hover {
+    background-color: #B08A6A; /* Slightly darker on hover */
+    color: #402A12; /* Darker text on hover */
+}
+
+/* Alternating Row Colors with Lighter Shades */
+QTableWidget::item, QTableView::item {
+    background-color: #fff; /* Default row background */
+    border: none; /* No column borders */
+    border-bottom: 1px solid #D6B89A; /* Lighter bottom border */
+}
+
+QTableWidget::item:nth-child(even), QTableView::item:nth-child(even) {
+    background-color: #f7e2cc; /* Light beige for alternate rows */
+    border-bottom: 1px solid #9A7C65; /* Slightly darker bottom border for even rows */
+}
+
+QTableWidget::item:hover, QTableView::item:hover {
+    background-color: #E9D4C2; /* Light brown background on row hover */
+    color: #402A12; /* Soft dark brown text on hover */
+}
+
+/* First Column (Serial Number or Fixed Column) */
+QTableWidget::item:first-child, QTableView::item:first-child {
+    background-color: #f2dec6; /* Slightly different background for first column */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Slim Borders Around Rows (Alternate Colors) */
+QTableWidget::item, QTableView::item {
+    border-bottom: 1px solid #D6B89A; /* Lighter bottom border for odd rows */
+}
+
+QTableWidget::item:nth-child(even), QTableView::item:nth-child(even) {
+    border-bottom: 1px solid #9A7C65; /* Slightly darker border for even rows */
+}
+
+/* Scrollbar Style */
+QScrollBar:vertical {
+    border: none;
+    background-color: #f7e2cc; /* Same as table background */
+    width: 12px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #9A7C65; /* Lighter brown for scrollbar handle */
+    min-height: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #D6B89A; /* Lighter hover effect */
+}
+
+QScrollBar::sub-line, QScrollBar::add-line {
+    border: none;
+    background: none;
+}
+</string>
+         </property>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Actions</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/action.png</normaloff>assets/roles/action.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Create</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/add.png</normaloff>assets/roles/add.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Edit</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/edit.png</normaloff>assets/roles/edit.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>View</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/eye.png</normaloff>assets/roles/eye.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Delete</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/bin.png</normaloff>assets/roles/bin.png</iconset>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>Staff</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>Branch Manager</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>Roles&lt;level</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>Analytics</string>
           </property>
          </item>
          <item row="4" column="0">
@@ -1328,21 +3903,343 @@ color: #775d41;
           </property>
          </item>
         </widget>
-       </widget>
-       <widget class="QWidget" name="tab_11">
-        <attribute name="title">
-         <string>Bars</string>
-        </attribute>
-       </widget>
-       <widget class="QWidget" name="tab_12">
-        <attribute name="title">
-         <string>Managers</string>
-        </attribute>
+        <widget class="QLabel" name="label_24">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>80</y>
+           <width>211</width>
+           <height>201</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>assets/roles/Ambassador-pana.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
        </widget>
        <widget class="QWidget" name="tab_13">
+        <attribute name="icon">
+         <iconset>
+          <normaloff>assets/roles/administrator.png</normaloff>assets/roles/administrator.png</iconset>
+        </attribute>
         <attribute name="title">
          <string>Admin</string>
         </attribute>
+        <widget class="QTableWidget" name="tableWidget_7">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>10</y>
+           <width>531</width>
+           <height>411</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">/* QTableWidget/QTableView Base Style */
+QTableWidget, QTableView {
+    border: 1px solid #9A7C65; /* Lighter border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f5e7d9; /* Light beige background */
+    gridline-color: transparent; /* No gridlines for columns */
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* Header Style (Flat, No Raised Effect) */
+QHeaderView::section {
+    background-color: #D6B89A; /* Lighter brown variation for the header */
+    color: #604731; /* Soft brown text */
+    padding: 8px;
+    border: none; /* No borders for header */
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effect on Header */
+QHeaderView::section:hover {
+    background-color: #B08A6A; /* Slightly darker on hover */
+    color: #402A12; /* Darker text on hover */
+}
+
+/* Alternating Row Colors with Lighter Shades */
+QTableWidget::item, QTableView::item {
+    background-color: #fff; /* Default row background */
+    border: none; /* No column borders */
+    border-bottom: 1px solid #D6B89A; /* Lighter bottom border */
+}
+
+QTableWidget::item:nth-child(even), QTableView::item:nth-child(even) {
+    background-color: #f7e2cc; /* Light beige for alternate rows */
+    border-bottom: 1px solid #9A7C65; /* Slightly darker bottom border for even rows */
+}
+
+QTableWidget::item:hover, QTableView::item:hover {
+    background-color: #E9D4C2; /* Light brown background on row hover */
+    color: #402A12; /* Soft dark brown text on hover */
+}
+
+/* First Column (Serial Number or Fixed Column) */
+QTableWidget::item:first-child, QTableView::item:first-child {
+    background-color: #f2dec6; /* Slightly different background for first column */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Slim Borders Around Rows (Alternate Colors) */
+QTableWidget::item, QTableView::item {
+    border-bottom: 1px solid #D6B89A; /* Lighter bottom border for odd rows */
+}
+
+QTableWidget::item:nth-child(even), QTableView::item:nth-child(even) {
+    border-bottom: 1px solid #9A7C65; /* Slightly darker border for even rows */
+}
+
+/* Scrollbar Style */
+QScrollBar:vertical {
+    border: none;
+    background-color: #f7e2cc; /* Same as table background */
+    width: 12px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #9A7C65; /* Lighter brown for scrollbar handle */
+    min-height: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #D6B89A; /* Lighter hover effect */
+}
+
+QScrollBar::sub-line, QScrollBar::add-line {
+    border: none;
+    background: none;
+}
+</string>
+         </property>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string/>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Actions</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/action.png</normaloff>assets/roles/action.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Create</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/add.png</normaloff>assets/roles/add.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Edit</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/edit.png</normaloff>assets/roles/edit.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>View</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/eye.png</normaloff>assets/roles/eye.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Delete</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>assets/roles/bin.png</normaloff>assets/roles/bin.png</iconset>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>Staff&lt;level</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>Roles</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>Branches</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>Roles&lt;level</string>
+          </property>
+         </item>
+         <item row="4" column="0">
+          <property name="text">
+           <string>Rooms</string>
+          </property>
+         </item>
+         <item row="5" column="0">
+          <property name="text">
+           <string>Inventories</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="label_25">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>100</y>
+           <width>211</width>
+           <height>221</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>assets/roles/Admin-bro.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
        </widget>
       </widget>
      </widget>
